@@ -3,7 +3,7 @@ package com.foodie.common.commondomain.entity;
 import java.util.Objects;
 
 public abstract class BaseEntity<ID> {
-    ID id;
+    private ID id;
 
     public ID getId() {
         return id;
